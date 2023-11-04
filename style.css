@@ -1,0 +1,21 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header, .main-img {
+    text-align: center;
+    padding: 0;
+}
+
+.food-list {
+    /* list-style-position: inside; */
+    /* text-align: center; */
+    place-self: center;    
+}
