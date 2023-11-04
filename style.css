@@ -1,5 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    overflow-x: hidden;
 }
 
 .container {
@@ -14,8 +16,9 @@
     padding: 0;
 }
 
-.food-list {
-    /* list-style-position: inside; */
-    /* text-align: center; */
-    place-self: center;    
+.intro, .ingredients-steps {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 20px;
 }
